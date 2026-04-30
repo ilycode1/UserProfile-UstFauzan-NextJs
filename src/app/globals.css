@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary */
+  --color-primary-50: #E1F5EE;
+  --color-primary-100: #9FE1CB;
+  --color-primary-200: #5DCAA5;
+  --color-primary-300: #2DB88A;
+  --color-primary-400: #1D9E75;
+  --color-primary-500: #0F6E56;
+  --color-primary-600: #085041;
+  --color-primary-700: #04342C;
+
+  /* Accent */
+  --color-accent-400: #EF9F27;
+  --color-accent-500: #BA7517;
+
+  /* Surface */
+  --color-surface-50: #FAFAF7;
+  --color-surface-100: #F5F0E8;
+  --color-surface-200: #EDE8DC;
+
+  /* Dark */
+  --color-dark-700: #444441;
+  --color-dark-800: #2C2C2A;
+  --color-dark-900: #1A1A18;
+
+  /* Font Family */
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fafaf7;
+  color: #2c2c2a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fafaf7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d9e75;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f6e56;
+}
+
+@layer components {
+  .geometric-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231D9E75' fill-opacity='0.08'%3E%3Cpath d='M30 2l5.5 11.1 12.3 1.8-8.9 8.7 2.1 12.2L30 30.1l-11 5.7 2.1-12.2-8.9-8.7 12.3-1.8L30 2zm0 7.5l-3.9 7.9-8.7 1.3 6.3 6.2-1.5 8.6L30 29.5l7.8 4-1.5-8.6 6.3-6.2-8.7-1.3L30 9.5z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .glass-card {
+    @apply backdrop-blur-sm bg-white/80 border border-surface-200;
+  }
+
+  .ayat-text {
+    @apply font-serif italic text-primary-500 relative;
+  }
+
+  .ayat-text::before {
+    content: "\201C";
+    @apply absolute -left-4 -top-2 text-3xl text-primary-300;
+  }
+
+  .ayat-text::after {
+    content: "\201D";
+    @apply text-3xl text-primary-300 align-middle ml-1;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
