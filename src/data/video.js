@@ -201,6 +201,16 @@ export const videoList = [
   },
   {
     id: 21,
+    judul: "Cabang-cabang Iman (Iman kepada Takdir Baik & Buruk)",
+    platform: "youtube",
+    embedId: "XlY2423cytM",
+    thumbnail: "",
+    kategori: "Kajian",
+    durasi: "",
+    tanggal: "10 November 2024",
+  },
+  {
+    id: 22,
     judul: "",
     platform: "instagram",
     embedId: "DWIJI2tDxXn",
