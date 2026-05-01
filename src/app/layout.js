@@ -15,11 +15,11 @@ const lora = Lora({
 
 export const metadata = {
   title: {
-    default: "Ustadz Fauzan Sugiyono",
-    template: "%s | Ustadz Fauzan Sugiyono",
+    default: "Ustaz Fauzan Sugiyono",
+    template: "%s | Ustaz Fauzan Sugiyono",
   },
   description: "Pengkaji Fikih Muamalah dan Tafsir Al-Qur'an. Mengajak kepada ilmu, iman, dan amal yang lurus bersumber dari Al-Qur'an dan As-Sunnah.",
-  metadataBase: new URL("https://ustadzfauzan.com"), // ganti dengan domain asli kalau sudah ada
+  metadataBase: new URL("https://ustazfauzan.com"),
 };
 
 export default function RootLayout({ children }) {
