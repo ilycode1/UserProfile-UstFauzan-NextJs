@@ -31,7 +31,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <h3 className="font-serif text-xl mb-3">Ustadz Fauzan Sugiyono</h3>
-            <p className="text-sm text-white/70 leading-relaxed">Pengkaji Fikih Muamalah dan Tafsir AlQuran. Mengajak kepada ilmu, iman, dan amal yang lurus bersumber dari Al-Qur'an dan As-Sunnah.</p>
+            <p className="text-sm text-white/70 leading-relaxed">Pengkaji Fikih Muamalah dan Tafsir Al-Quran. Mengajak kepada ilmu, iman, dan amal yang lurus bersumber dari Al-Quran dan As-Sunnah.</p>
           </div>
 
           <div>
