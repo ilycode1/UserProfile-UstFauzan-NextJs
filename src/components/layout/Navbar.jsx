@@ -10,6 +10,7 @@ const navItems = [
   { to: "/", label: "Beranda" },
   { to: "/profil", label: "Profil" },
   { to: "/kajian", label: "Kajian" },
+  { to: "/artikel", label: "Artikel" },
   { to: "/video", label: "Video" },
   { to: "/kegiatan", label: "Kegiatan" },
 ];

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ChevronDown, BookOpen, ArrowRight, Mail } from "lucide-react";
+import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
 import Badge from "@/components/ui/Badge";
@@ -31,37 +32,58 @@ export default function HomeClient({ previewMateri, pendidikanTerakhir }) {
         <div className="absolute inset-0 geometric-pattern opacity-60" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-surface-50/40 to-surface-50 pointer-events-none" />
 
-        <div className="relative max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-20">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {},
-              visible: { transition: { staggerChildren: 0.12 } },
-            }}
-            className="max-w-3xl"
-          >
-            <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
-              <Badge className="bg-primary-50 text-primary-600">Pengkaji Fikih Muamalah & Tafsir</Badge>
+        <div className="relative max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+            {/* KOLOM KIRI — Teks + Button */}
+            {/* 
+        order-2 lg:order-1 → di mobile ini urutan ke-2 (di bawah foto)
+                              di desktop kembali jadi urutan pertama (kiri)
+      */}
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {},
+                visible: { transition: { staggerChildren: 0.12 } },
+              }}
+              className="order-2 lg:order-1"
+            >
+              <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}>
+                <Badge className="bg-primary-50 text-primary-600">Pengkaji Fikih Muamalah & Tafsir</Badge>
+              </motion.div>
+
+              <motion.h1 variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.7 } } }} className="font-serif text-3xl md:text-5xl lg:text-6xl text-dark-800 leading-tight mt-4 lg:mt-6">
+                {profil.nama}
+              </motion.h1>
+
+              <motion.p variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }} className="text-base md:text-lg text-dark-700 mt-4 leading-relaxed">
+                {profil.tagline}
+              </motion.p>
+
+              <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }} className="flex flex-col sm:flex-row gap-3 mt-6 lg:mt-8">
+                <Button as="a" href="/kajian" variant="primary" size="lg">
+                  <BookOpen size={18} /> Lihat Materi Kajian
+                </Button>
+                <Button as="a" href={emailLink} target="_blank" rel="noreferrer" variant="outline" size="lg">
+                  <Mail size={18} /> fauzanstiudia@gmail.com
+                </Button>
+              </motion.div>
             </motion.div>
 
-            <motion.h1 variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.7 } } }} className="font-serif text-4xl md:text-6xl lg:text-7xl text-dark-800 leading-tight mt-6">
-              {profil.nama}
-            </motion.h1>
-
-            <motion.p variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }} className="text-lg md:text-xl text-dark-700 mt-5 max-w-2xl leading-relaxed">
-              {profil.tagline}
-            </motion.p>
-
-            <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }} className="flex flex-col sm:flex-row gap-3 mt-8">
-              <Button as="a" href="/kajian" variant="primary" size="lg">
-                <BookOpen size={18} /> Lihat Materi Kajian
-              </Button>
-              <Button as="a" href={emailLink} target="_blank" rel="noreferrer" variant="outline" size="lg">
-                <Mail size={18} /> fauzanstiudia@gmail.com
-              </Button>
+            {/* KOLOM KANAN — Foto */}
+            {/* 
+        order-1 lg:order-2 → di mobile ini urutan pertama (di atas teks)
+                              di desktop jadi urutan ke-2 (kanan)
+        Foto diperkecil di mobile pakai max-w-[200px] 
+        di desktop lebih besar dengan lg:max-w-sm
+      */}
+            <motion.div initial={{ opacity: 0, x: 60 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }} className="order-1 lg:order-2 flex justify-center lg:justify-end">
+              <div className="relative w-full max-w-[180px] sm:max-w-[220px] lg:max-w-sm aspect-[3/4] rounded-2xl lg:rounded-3xl overflow-hidden bg-gradient-to-br from-primary-100 to-primary-300 shadow-lg lg:shadow-xl">
+                <Image src={profil.foto} alt={profil.nama} fill className="object-cover object-top" priority />
+                <div className="absolute inset-0 bg-gradient-to-t from-surface-50/20 to-transparent pointer-events-none" />
+              </div>
             </motion.div>
-          </motion.div>
+          </div>
         </div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.2, duration: 0.6 }} className="absolute bottom-8 left-1/2 -translate-x-1/2 text-primary-400">
@@ -124,11 +146,12 @@ export default function HomeClient({ previewMateri, pendidikanTerakhir }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <ScrollReveal direction="left">
-              <div className="relative aspect-[4/5] max-w-md mx-auto rounded-3xl overflow-hidden bg-gradient-to-br from-primary-100 to-primary-300 shadow-lg">
-                <img
+              <div className="relative aspect-4/5 max-w-md mx-auto rounded-3xl overflow-hidden bg-gradient-to-br from-primary-100 to-primary-300 shadow-lg">
+                <Image
                   src={profil.foto}
                   alt={profil.nama}
                   className="w-full h-full object-cover"
+                  fill
                   onError={(e) => {
                     e.currentTarget.style.display = "none";
                   }}

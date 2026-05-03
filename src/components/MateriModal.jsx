@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { X, Mail, Calendar, MapPin, FileDown, BookOpen } from "lucide-react";
+import { X, Calendar, MapPin, FileDown, BookOpen } from "lucide-react";
 import Badge from "./ui/Badge";
 import { profil } from "../data/profil";
 
@@ -130,14 +130,14 @@ export default function MateriModal({ materi, open, onClose }) {
                   <FileDown size={16} /> Unduh PDF
                 </a>
               )}
-              <a
+              {/* <a
                 href={`${emailLink}&su=${encodeURIComponent(`Pendaftaran Kajian: ${materi.judul}`)}&body=${encodeURIComponent(`Assalamu'alaikum, saya ingin mendaftar kajian "${materi.judul}"`)}`}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 flex-1 px-4 py-2.5 rounded-full text-sm font-medium bg-primary-400 text-white hover:bg-primary-500 transition-colors"
               >
                 <Mail size={16} /> Daftar Kajian via Email
-              </a>
+              </a> */}
             </div>
           </motion.div>
         </motion.div>
