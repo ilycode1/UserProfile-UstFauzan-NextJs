@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, Clock, Calendar } from "lucide-react";
+import Image from "next/image";
+import { ArrowLeft, Calendar } from "lucide-react";
 import Badge from "@/components/ui/Badge";
 import { formatTanggal } from "@/data/artikel";
 
@@ -23,9 +24,6 @@ export default function ArtikelDetailClient({ artikel }) {
             <span className="inline-flex items-center gap-1 text-xs text-dark-700/70">
               <Calendar size={11} /> {formatTanggal(artikel.tanggal)}
             </span>
-            <span className="inline-flex items-center gap-1 text-xs text-dark-700/70">
-              <Clock size={11} /> {artikel.estimasiBaca}
-            </span>
           </div>
 
           {/* Judul */}
@@ -35,6 +33,24 @@ export default function ArtikelDetailClient({ artikel }) {
           <p className="text-dark-700 mt-4 text-lg leading-relaxed">{artikel.excerpt}</p>
         </div>
       </section>
+
+      {/* Gambar utama artikel — kalau ada */}
+      {artikel.gambar && (
+        <section className="bg-surface-50 pt-8">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border border-surface-200 shadow-sm">
+              <Image
+                src={artikel.gambar}
+                alt={artikel.judul}
+                fill
+                sizes="(max-width: 768px) 100vw, 768px"
+                priority
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Konten artikel */}
       <section className="py-12 bg-surface-50">

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Clock, Calendar } from "lucide-react";
+import { ArrowRight, Calendar } from "lucide-react";
 import Image from "next/image";
 import Badge from "@/components/ui/Badge";
 import { formatTanggal } from "@/data/artikel";
@@ -12,7 +12,13 @@ export default function ArtikelCard({ artikel }) {
       {/* Thumbnail — kalau ada gambar tampilkan, kalau tidak pakai placeholder warna */}
       <div className="relative h-44 bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center overflow-hidden">
         {artikel.gambar ? (
-          <Image src={artikel.gambar} alt={artikel.judul} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <Image
+            src={artikel.gambar}
+            alt={artikel.judul}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
         ) : (
           // Placeholder: huruf pertama judul sebagai visual
           <span className="font-serif text-6xl text-primary-200 select-none">{artikel.judul.charAt(0)}</span>
@@ -26,9 +32,6 @@ export default function ArtikelCard({ artikel }) {
           <Badge category={artikel.kategori}>{artikel.kategori}</Badge>
           <span className="inline-flex items-center gap-1 text-xs text-dark-700/70">
             <Calendar size={11} /> {formatTanggal(artikel.tanggal)}
-          </span>
-          <span className="inline-flex items-center gap-1 text-xs text-dark-700/70">
-            <Clock size={11} /> {artikel.estimasiBaca}
           </span>
         </div>
 

@@ -4,7 +4,9 @@ import ArtikelDetailClient from "@/components/ArtikelDetailClient";
 
 // Generate metadata dinamis per artikel — penting untuk SEO
 export async function generateMetadata({ params }) {
-  const artikel = artikelList.find((a) => a.slug === params.slug);
+  // Next.js 16: `params` adalah Promise, harus di-await dulu
+  const { slug } = await params;
+  const artikel = artikelList.find((a) => a.slug === slug);
   if (!artikel) return {};
 
   return {
@@ -23,8 +25,10 @@ export function generateStaticParams() {
   return artikelList.map((a) => ({ slug: a.slug }));
 }
 
-export default function ArtikelDetailPage({ params }) {
-  const artikel = artikelList.find((a) => a.slug === params.slug);
+export default async function ArtikelDetailPage({ params }) {
+  // Next.js 16: `params` adalah Promise, harus di-await dulu
+  const { slug } = await params;
+  const artikel = artikelList.find((a) => a.slug === slug);
   if (!artikel) notFound();
 
   return <ArtikelDetailClient artikel={artikel} />;
