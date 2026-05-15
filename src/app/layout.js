@@ -19,7 +19,7 @@ export const metadata = {
     template: "%s | Ustaz Fauzan Sugiyono",
   },
   description: "Pengkaji Fikih Muamalah dan Tafsir Al-Qur'an. Mengajak kepada ilmu, iman, dan amal yang lurus bersumber dari Al-Qur'an dan As-Sunnah.",
-  metadataBase: new URL("https://ustazfauzan.com"),
+  metadataBase: new URL("https://Ustazfauzan.com"),
 };
 
 export default function RootLayout({ children }) {

@@ -4,7 +4,7 @@ import HomeClient from "@/components/HomeClient";
 
 export const metadata = {
   title: "Beranda",
-  description: "Kajian Islam bersama Ustadz Fauzan Sugiyono - Pengkaji Fikih Muamalah dan Tafsir Al-Qur'an.",
+  description: "Kajian Islam bersama Ustaz Fauzan Sugiyono - Pengkaji Fikih Muamalah dan Tafsir Al-Qur'an.",
 };
 
 export default function HomePage() {

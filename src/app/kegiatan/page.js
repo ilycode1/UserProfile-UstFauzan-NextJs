@@ -4,7 +4,7 @@ import KegiatanClient from "@/components/KegiatanClient";
 
 export const metadata = {
   title: "Jadwal Kegiatan",
-  description: "Kajian rutin, kegiatan insidental, dan majelis online bersama Ustadz Fauzan Sugiyono.",
+  description: "Kajian rutin, kegiatan insidental, dan majelis online bersama Ustaz Fauzan Sugiyono.",
 };
 
 export default function KegiatanPage() {

@@ -3,7 +3,7 @@ import ProfilClient from "@/components/ProfilClient";
 
 export const metadata = {
   title: "Profil",
-  description: "Riwayat pendidikan, bidang kajian, dan karya tulis Ustadz Fauzan Sugiyono.",
+  description: "Riwayat pendidikan, bidang kajian, dan karya tulis Ustaz Fauzan Sugiyono.",
 };
 
 export default function ProfilPage() {

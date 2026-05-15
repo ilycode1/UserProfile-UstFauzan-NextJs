@@ -31,7 +31,7 @@ export default function KegiatanClient({ kegiatanList, profil }) {
         <div className="relative max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
           <ScrollReveal direction="up">
             <h1 className="font-serif text-3xl md:text-5xl text-dark-800">Jadwal Kegiatan</h1>
-            <p className="text-dark-700 mt-2 max-w-2xl">Kajian rutin, kegiatan insidental, dan majelis online bersama Ustadz Fauzan.</p>
+            <p className="text-dark-700 mt-2 max-w-2xl">Kajian rutin, kegiatan insidental, dan majelis online bersama Ustaz Fauzan.</p>
           </ScrollReveal>
         </div>
       </section>
@@ -90,7 +90,7 @@ export default function KegiatanClient({ kegiatanList, profil }) {
             <div className="relative flex flex-col md:flex-row md:items-center gap-6 md:gap-8">
               <div className="flex-1">
                 <h2 className="font-serif text-2xl md:text-3xl">Ingin Mengadakan Kajian?</h2>
-                <p className="text-white/85 mt-2 leading-relaxed">Undang Ustadz Fauzan untuk mengisi kajian, tabligh akbar, atau konsultasi syariah di lembaga Anda.</p>
+                <p className="text-white/85 mt-2 leading-relaxed">Undang Ustaz Fauzan untuk mengisi kajian, tabligh akbar, atau konsultasi syariah di lembaga Anda.</p>
               </div>
               <a
                 href={emailLink}

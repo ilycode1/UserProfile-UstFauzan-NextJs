@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="font-serif text-xl mb-3">Ustadz Fauzan Sugiyono</h3>
+            <h3 className="font-serif text-xl mb-3">Ustaz Fauzan Sugiyono</h3>
             <p className="text-sm text-white/70 leading-relaxed">Pengkaji Fikih Muamalah dan Tafsir Al-Quran. Mengajak kepada ilmu, iman, dan amal yang lurus bersumber dari Al-Quran dan As-Sunnah.</p>
           </div>
 
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/10 text-xs text-white/50 text-center">&copy; {new Date().getFullYear()} Ustadz Fauzan Sugiyono. Seluruh hak dilindungi.</div>
+        <div className="mt-10 pt-6 border-t border-white/10 text-xs text-white/50 text-center">&copy; {new Date().getFullYear()} Ustaz Fauzan Sugiyono. Seluruh hak dilindungi.</div>
       </div>
     </footer>
   );

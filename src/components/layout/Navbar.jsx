@@ -36,7 +36,7 @@ export default function Navbar() {
     <header className={`fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-surface-200 transition-all duration-300 ${scrolled ? "py-2 shadow-sm" : "py-4"}`}>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <Link href="/" className="font-serif text-lg md:text-xl text-dark-800 hover:text-primary-500 transition-colors">
-          Ustadz Fauzan Sugiyono
+          Ustaz Fauzan Sugiyono
         </Link>
 
         <ul className="hidden md:flex items-center gap-1">
