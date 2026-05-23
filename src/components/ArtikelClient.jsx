@@ -13,7 +13,7 @@ export default function ArtikelClient({ artikelList }) {
 
   const filtered = useMemo(() => {
     if (activeFilter === "Semua") return artikelList;
-    return artikelList.filter((a) => a.kategori === activeFilter);
+    return artikelList.filter((a) => a.category === activeFilter);
   }, [activeFilter, artikelList]);
 
   return (

@@ -2,9 +2,9 @@ export const artikelList = [
   {
     id: 1,
     slug: "mengapa-allah-rahasiakan-lailatul-qadar",
-    judul: "Ini Alasannya Mengapa Allah Rahasiakan Lailatul Qadar",
+    title: "Ini Alasannya Mengapa Allah Rahasiakan Lailatul Qadar",
     excerpt: "Mengapa Allah menyembunyikan kepastian malam Lailatul Qadar dari hamba-Nya? Imam Fakhruddin Ar-Razi dalam Tafsir Al-Kabir mengungkap empat hikmah di balik rahasia malam mulia ini.",
-    konten: `
+    content: `
       <p>Lailatul Qadar adalah malam keutamaan, ketika Allah menurunkan rahmat-Nya pada malam itu, dengan jaminan pahala, siapa orang yang menghidupkan lailatul qadar, dengan ibadah maka setara dengan ibadah 1000 bulan. Ibadah satu malam saja, senilai ibadah 83 tahun balasan dari Allah.</p>
 
       <p>Menarik untuk dikaji ketika Allah merahasiakan keberadaan pasti Lailatul Qadar kepada hamba-hamba-Nya. Ada banyak riwayat yang menjelaskan kemunculannya dalam hadits-hadits yang kuat dan mu'tabar. Mengerucut pada sepuluh malam terakhir di bulan Ramadhan, terutama pada malam-malam yang ganjil. Beragam riwayat; ada yang menyebutkan Lailatul Qadar ada pada malam 21, 23, 25, 27 bahkan 29. Tetapi sekali lagi, Allah rahasiakan keberadaannya, seolah tersembunyi dalam malam sunyi saat orang-orang shalih bermunajat di akhir Ramadhan.</p>
@@ -47,16 +47,16 @@ export const artikelList = [
 
       <p><em>20 Ramadhan 1443 H / 2022 — Menjelang Ifthar</em><br /><em>Fauzan Sugiyono, Lc M.Ag (ICMI Depok)</em></p>
     `,
-    kategori: "Tafsir",
-    tanggal: "2022-04-21",
-    gambar: "/assets/artikel/content-1.webp",
+    category: "Tafsir",
+    date: "2022-04-21",
+    image: "/assets/artikel/content-1.webp",
   },
   {
     id: 2,
     slug: "menuju-jamaatul-muslimin-resensi-buku",
-    judul: "Menuju Jama'atul Muslimin (Resensi Buku)",
+    title: "Menuju Jama'atul Muslimin (Resensi Buku)",
     excerpt: "Resensi tesis Dr. Salim Segaf Al Jufri yang membahas konsep jama'atul muslimin — mulai dari definisi, kedudukan, tujuan, hingga karakteristik dan unsur kesatuan umat Islam.",
-    konten: `
+    content: `
       <h2>1. Tentang Penulis</h2>
       <p>Dr. Salim Segaf Al Jufri merupakan sahabat karib penulis saat kuliah di Madinah. Ketika memberi kata pengantar pada buku ini, beliau menuturkan: "Beliau adalah seorang ilmuwan dan aktifis dakwah tulen yang patut diteladani. Buku ini adalah tesis yang dipertahankan beliau untuk meraih gelar magister di Universitas Islam Madinah Al Munawarah. Tesis beliau mendapat nilai excellent. Namun beliau sudah wafat dalam usia yang relatif muda, 40 tahun, tak lama setelah merampungkan tesis ini."</p>
 
@@ -178,16 +178,16 @@ export const artikelList = [
         <li><strong>Kesatuan undang-undang dan kesatuan pemimpin</strong> (Rasulullah).</li>
       </ul>
     `,
-    kategori: "Resensi Buku",
-    tanggal: "2024-10-25",
-    gambar: null,
+    category: "Resensi Buku",
+    date: "2024-10-25",
+    image: null,
   },
   {
     id: 3,
     slug: "mengapa-nabi-ibrahim-digelari-khalilullah",
-    judul: "Mengapa Nabi Ibrahim Digelari Khalilullah?",
+    title: "Mengapa Nabi Ibrahim Digelari Khalilullah?",
     excerpt: "Khalilullah berarti kekasih Allah. Mengapa gelar mulia ini diberikan kepada Nabi Ibrahim 'alaihissalam? Imam Fakhruddin Ar-Razi mengungkap beberapa alasannya dalam Tafsir Mafatihul Ghaib.",
-    konten: `
+    content: `
       <p>Khalilullah adalah kekasih Allah, orang yang mencintai Allah dan iapun dicintai Allah. Dialah sosok Nabi Ibrahim 'alaihissalam yang diabadikan Al-Qur'an sebagai Khalilullah, seperti termaktub dalam firman Allah:</p>
 
       <blockquote dir="rtl" lang="ar">وَمَنْ أَحْسَنُ دِينًا مِمَّنْ أَسْلَمَ وَجْهَهُ لِلَّهِ وَهُوَ مُحْسِنٌ وَاتَّبَعَ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَاتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا</blockquote>
@@ -224,16 +224,16 @@ export const artikelList = [
       <p><strong>Sumber:</strong> Kitab Tafsir Mafatihul Ghaib, Fakhruddin Ar-Razy, Beirut: Dar Ihya Turats, 1420, 11/231</p>
       <p><em>Depok, 9 Dzulhijjah 1442 H — Minggu, 18 Juli 2021</em><br /><em>Fauzan Sugiyono, Lc M.Ag</em></p>
     `,
-    kategori: "Sirah",
-    tanggal: "2021-07-18",
-    gambar: "/assets/artikel/content-3.webp",
+    category: "Sirah",
+    date: "2021-07-18",
+    image: "/assets/artikel/content-3.webp",
   },
   {
     id: 4,
     slug: "niatlah-yang-ikhlas-agar-wafatmu-husnul-khatimah",
-    judul: "Niatlah yang Ikhlas, Agar Wafatmu Husnul Khatimah",
+    title: "Niatlah yang Ikhlas, Agar Wafatmu Husnul Khatimah",
     excerpt: "Akhir hayat adalah misteri yang hanya Allah ketahui. Niat yang ikhlas dan amal yang istiqamah menjadi bekal menuju husnul khatimah — dengan pelajaran dari kisah wanita pezina hingga seorang hafiz Qur'an yang murtad.",
-    konten: `
+    content: `
       <p>Beragam aktifitas manusia di dunia nyaris tak bisa terungkap dengan tulisan. Ada yang baik, terus berusaha baik. Ada pula yang tenggelam dalam keburukan, dosa dan maksiat, asik menikmati, sampai ajal tiba-tiba menjemput tak sadar.</p>
 
       <h2>Awali Amal dengan Niat</h2>
@@ -296,16 +296,16 @@ export const artikelList = [
 
       <p><em>Jumat yang gendung, 19/02/2021</em><br /><em>Abu Nawa, Lc</em></p>
     `,
-    kategori: "Akhlak",
-    tanggal: "2021-02-19",
-    gambar: "/assets/artikel/content-4.webp",
+    category: "Akhlak",
+    date: "2021-02-19",
+    image: "/assets/artikel/content-4.webp",
   },
   {
     id: 5,
     slug: "tafsir-surat-al-mulk-ayat-19",
-    judul: "Tafsir Surat Al-Mulk Ayat 19 — Deskripsi Kekuasaan Allah pada Seekor Burung",
+    title: "Tafsir Surat Al-Mulk Ayat 19 — Deskripsi Kekuasaan Allah pada Seekor Burung",
     excerpt: "Pada kepakan dan kepatuhan sayap seekor burung yang terbang di angkasa, tersembunyi tanda-tanda kekuasaan Allah Yang Maha Rahman. Tafsir Surat Al-Mulk ayat 19 (Bagian 10).",
-    konten: `
+    content: `
       <h2>Nash Ayat</h2>
 
       <blockquote dir="rtl" lang="ar">أَوَلَمْ يَرَوْا إِلَى الطَّيْرِ فَوْقَهُمْ صَافَّاتٍ وَيَقْبِضْنَ مَا يُمْسِكُهُنَّ إِلَّا الرَّحْمَنُ إِنَّهُ بِكُلِّ شَيْءٍ بَصِيرٌ (١٩)</blockquote>
@@ -349,16 +349,16 @@ export const artikelList = [
 
       <p><em>Senin, 15 Februari 2021</em></p>
     `,
-    kategori: "Tafsir",
-    tanggal: "2021-02-15",
-    gambar: "/assets/artikel/content-5.webp",
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-5.webp",
   },
   {
     id: 6,
     slug: "tafsir-surat-al-mulk-ayat-1",
-    judul: "Tafsir Surat Al-Mulk Ayat 1 (Bagian 2)",
+    title: "Tafsir Surat Al-Mulk Ayat 1 (Bagian 2)",
     excerpt: "Makna 'Tabaraka' dan kekuasaan mutlak Allah atas segala sesuatu. Telaah ayat pertama Surat Al-Mulk melalui pandangan para mufasir besar: Al-Qurthubi, Az-Zuhaily, Asy-Syaukani, An-Nasafi, dan Sayyid Quthb.",
-    konten: `
+    content: `
       <h2>Nash Ayat</h2>
 
       <blockquote dir="rtl" lang="ar">تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ</blockquote>
@@ -405,16 +405,16 @@ export const artikelList = [
       <h3>Sayyid Quthb</h3>
       <p>Ayat pertama dalam surat ini merupakan terapi baru dalam meluruskan pemikiran antara wujud kebendaan dengan Sang Penciptanya — pemikiran yang luas, menyeluruh, meretas batas bumi yang sempit dan dunia yang terbatas, menuju alam langit dan kehidupan akhirat. Juga kepada makhluk ciptaan lain selain manusia di dunia seperti jin, burung-burung, dan lainnya, dan alam akhirat seperti neraka Jahannam dan seisinya — kepada alam ghaib selain alam kebendaan yang selalu mendekam dalam hati manusia. (Fi Dzilalil Qur'an, 6/3639)</p>
     `,
-    kategori: "Tafsir",
-    tanggal: "2021-02-15",
-    gambar: "/assets/artikel/content-6.webp",
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-6.webp",
   },
   {
     id: 7,
     slug: "tafsir-surat-al-mulk-ayat-16-17",
-    judul: "Tafsir Surat Al-Mulk Ayat 16-17 (Bagian 9)",
+    title: "Tafsir Surat Al-Mulk Ayat 16-17 (Bagian 9)",
     excerpt: "Sudah merasa amankah kita dari azab Allah? Ayat ini adalah teguran bagi mereka yang lalai — bahwa Allah adalah satu-satunya sumber rasa aman sejati, dan jauh dari-Nya berarti jauh dari ketentraman hakiki.",
-    konten: `
+    content: `
       <h2>Nash Ayat</h2>
 
       <blockquote dir="rtl" lang="ar">أَأَمِنْتُمْ مَنْ فِي السَّمَاءِ أَنْ يَخْسِفَ بِكُمُ الْأَرْضَ فَإِذَا هِيَ تَمُورُ (١٦) أَمْ أَمِنْتُمْ مَنْ فِي السَّمَاءِ أَنْ يُرْسِلَ عَلَيْكُمْ حَاصِبًا فَسَتَعْلَمُونَ كَيْفَ نَذِيرِ (١٧)</blockquote>
@@ -444,16 +444,16 @@ export const artikelList = [
 
       <p><em>Oleh: Fauzan Sugiyono, Lc</em><br /><em>Bersambung…</em></p>
     `,
-    kategori: "Tafsir",
-    tanggal: "2021-02-15",
-    gambar: "/assets/artikel/content-7.webp",
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-7.webp",
   },
   {
     id: 8,
     slug: "tafsir-surat-al-mulk-ayat-13-14",
-    judul: "Tafsir Surat Al-Mulk Ayat 13-14 (Bagian 8)",
+    title: "Tafsir Surat Al-Mulk Ayat 13-14 (Bagian 8)",
     excerpt: "Allah Maha Mengetahui apa yang tersembunyi di lubuk hati dan apa yang nyata terlihat. Ayat ini mengajak kita merenungi keikhlasan, sekaligus mengingat tujuh golongan yang akan mendapat naungan Allah di hari kiamat.",
-    konten: `
+    content: `
       <h2>Nash Ayat</h2>
 
       <blockquote dir="rtl" lang="ar">وَأَسِرُّوا قَوْلَكُمْ أَوِ اجْهَرُوا بِهِ إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ (١٣) أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ اللَّطِيفُ الْخَبِيرُ (١٤)</blockquote>
@@ -518,16 +518,16 @@ export const artikelList = [
 
       <p><em>Fauzan Sugiyono, Lc</em><br /><em>Bersambung…</em></p>
     `,
-    kategori: "Tafsir",
-    tanggal: "2021-02-15",
-    gambar: "/assets/artikel/content-8.webp",
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-8.webp",
   },
   {
     id: 9,
     slug: "tafsir-surat-al-mulk-ayat-10-12",
-    judul: "Tafsir Surat Al-Mulk Ayat 10-12 (Bagian 7)",
+    title: "Tafsir Surat Al-Mulk Ayat 10-12 (Bagian 7)",
     excerpt: "Penyesalan orang-orang kafir di akhirat — andai dahulu mereka mau mendengar dan berpikir. Sementara bagi mereka yang takut kepada Allah dalam kondisi tak terlihat, telah dijanjikan ampunan dan pahala yang besar.",
-    konten: `
+    content: `
       <h2>Nash Ayat</h2>
 
       <blockquote dir="rtl" lang="ar">وَقَالُوا لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِي أَصْحَابِ السَّعِيرِ (١٠) فَاعْتَرَفُوا بِذَنْبِهِمْ فَسُحْقًا لِأَصْحَابِ السَّعِيرِ (١١) إِنَّ الَّذِينَ يَخْشَوْنَ رَبَّهُمْ بِالْغَيْبِ لَهُمْ مَغْفِرَةٌ وَأَجْرٌ كَبِيرٌ (١٢)</blockquote>
@@ -574,16 +574,16 @@ export const artikelList = [
 
       <p><em>Fauzan Sugiyono, Lc M.Ag</em><br /><em>Bersambung…</em></p>
     `,
-    kategori: "Tafsir",
-    tanggal: "2021-02-15",
-    gambar: "/assets/artikel/content-9.webp",
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-9.webp",
   },
   {
     id: 10,
     slug: "tafsir-surat-al-mulk-ayat-7-8",
-    judul: "Tafsir Surat Al-Mulk Ayat 7-8 (Bagian 6)",
+    title: "Tafsir Surat Al-Mulk Ayat 7-8 (Bagian 6)",
     excerpt: "Gambaran mengerikan tentang neraka yang menggelegak dan hampir terpecah karena marahnya. Sebuah peringatan tentang nasib orang-orang yang mendustakan seruan para pemberi peringatan.",
-    konten: `
+    content: `
       <h2>Teks Ayat</h2>
 
       <blockquote dir="rtl" lang="ar">إِذَا أُلْقُوا فِيهَا سَمِعُوا لَهَا شَهِيقًا وَهِيَ تَفُورُ (٧) تَكَادُ تَمَيَّزُ مِنَ الْغَيْظِ كُلَّمَا أُلْقِيَ فِيهَا فَوْجٌ سَأَلَهُمْ خَزَنَتُهَا أَلَمْ يَأْتِكُمْ نَذِيرٌ (٨)</blockquote>
@@ -609,15 +609,346 @@ export const artikelList = [
 
       <p><em>Bersambung…</em></p>
     `,
-    kategori: "Tafsir",
-    tanggal: "2021-02-15",
-    gambar: "/assets/artikel/content-10.webp",
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-10.webp",
+  },
+  {
+    id: 11,
+    slug: "tafsir-surat-al-mulk-ayat-5-6",
+    title: "Tafsir Surat Al-Mulk Ayat 5-6 — Bintang di Langit sebagai Pelempar Syetan (Bagian 5)",
+    excerpt: "Allah menghiasi langit dunia dengan bintang gemintang — sebagai penghias langit, pelempar syetan dari kalangan jin yang mencuri kabar dari langit, sekaligus pedoman arah. Tafsir Surat Al-Mulk ayat 5-6 (Bagian 5).",
+    content: `
+      <h2>Nash Ayat</h2>
+
+      <blockquote dir="rtl" lang="ar">وَلَقَدْ زَيَّنَّا السَّمَاءَ الدُّنْيَا بِمَصَابِيحَ وَجَعَلْنَاهَا رُجُومًا لِلشَّيَاطِينِ وَأَعْتَدْنَا لَهُمْ عَذَابَ السَّعِيرِ (٥) وَلِلَّذِينَ كَفَرُوا بِرَبِّهِمْ عَذَابُ جَهَنَّمَ وَبِئْسَ الْمَصِيرُ (٦)</blockquote>
+
+      <p>"Dan sungguh Kami telah hiasi langit yang dekat dengan bintang-bintang, dan Kami jadikannya (bintang-bintang itu) sebagai alat pelempar syetan, dan Kami sediakan bagi mereka azab yang menyala-nyala. Dan orang-orang yang ingkar kepada Tuhannya akan mendapat azab Jahannam, dan itulah seburuk-buruk tempat kembali." (QS. Al-Mulk: 5-6)</p>
+
+      <h2>Tinjauan Bahasa</h2>
+
+      <p><strong dir="rtl" lang="ar">مَصَابِيحَ</strong> — "bintang-bintang"</p>
+
+      <p>Diungkapkan Allah dengan bentuk jamak <em>mashabih</em> (pelita-pelita), bentuk tunggalnya adalah <em>mishbah</em> — yaitu sesuatu yang dijadikan penerangan dalam gelap, seperti waktu subuh yang berarti sinar yang menyambut datangnya siang. Bintang-bintang diungkapkan dengan kata <em>mashabih</em> karena ia bersinar bak pelita.</p>
+
+      <p>Imam At-Thabari menyebutkan bersumber dari Qatadah bahwa bintang diciptakan untuk tiga hal:</p>
+      <ol>
+        <li>Sebagai penghias langit.</li>
+        <li>Sebagai alat pelempar syetan.</li>
+        <li>Sebagai pedoman arah.</li>
+      </ol>
+      <p>(Tafsir At-Thabari, 23/508)</p>
+
+      <p>Syaikh Al-Utsaimin menerangkan bahwa syetan yang dilempar adalah syetan dari jenis jin — bukan dari jenis manusia — karena syetan dari jenis jin memiliki kekuatan. (Fathul Majid, hal. 381)</p>
+
+      <p>Seperti dalam firman Allah:</p>
+
+      <blockquote dir="rtl" lang="ar">وَالشَّيَاطِينَ كُلَّ بَنَّاءٍ وَغَوَّاصٍ</blockquote>
+
+      <p>"Dan (Kami tundukkan pula kepadanya) setan-setan, semuanya ahli bangunan dan penyelam." (QS. Shad: 37)</p>
+
+      <blockquote dir="rtl" lang="ar">قَالَ عِفْرِيتٌ مِنَ الْجِنِّ أَنَا آتِيكَ بِهِ قَبْلَ أَنْ تَقُومَ مِنْ مَقَامِكَ وَإِنِّي عَلَيْهِ لَقَوِيٌّ أَمِينٌ</blockquote>
+
+      <p>"Ifrit dari golongan jin berkata: 'Akulah yang akan membawanya kepadamu sebelum engkau berdiri dari tempatmu, dan sungguh aku kuat dan dapat dipercaya.'" (QS. An-Naml: 39)</p>
+
+      <h2>Pendapat Ulama</h2>
+
+      <p>Syetan yang mencuri kabar dari langit kemudian dilempar Allah dengan bintang-bintang tersebut yang kilatannya ibarat bara api neraka. (Tafsir Al-Khazin, 4/319)</p>
+
+      <p>Ibnu Abbas menyebutkan: "Syetan yang terkena lemparan bintang tersebut ada yang terluka, tergulung, dan terbakar." (Tafsir Ibnu Abbas, 1/479)</p>
+
+      <p>Syekh Wahbah Az-Zuhaili berkata:</p>
+
+      <blockquote dir="rtl" lang="ar">زيّن الله السماء الدنيا وهي القربى أقرب السموات إلى الناس بكواكب مصابيح لإضاءتها، وجعل منها شهبا تنقض على مردة الشياطين، وأعد الله للشياطين أشد الحريق بسبب الكفر والضلال والإفساد</blockquote>
+
+      <p>"Allah menghiasi langit dunia — yaitu langit yang paling dekat antara manusia dengan jagat raya — dengan bintang-bintang yang menyinarinya. Bintang juga dijadikan alat untuk menghalau syetan durjana. Allah menyiapkan bagi syetan azab yang membakar karena kekafiran, kesesatan, dan kerusakan mereka." (Tafsir Al-Munir, 29/13)</p>
+
+      <p>Sayyid Quthb berkata: "Indahnya pemandangan bintang di langit begitu menentramkan hati. Keindahan warna yang selalu terbarukan, sesuai dengan waktu — selalu berbeda pagi dan sore hari, dari terbit matahari hingga terbenamnya, dari malam yang berbintang hingga malam gelap gulita, dari cerahnya langit hingga berarak awan. Bahkan selalu berbeda dari waktu ke waktu. Dari berbagai sudut dan penjuru, demikian itu terdapat tanda-tanda kekuasaan Allah bagi kaum yang berfikir. Itulah keindahan dalam kehidupan manusia — keindahan yang tak terukir dengan kata dan ungkapan. Namun Al-Qur'an menunjukkan jiwa manusia kepada keindahan jagat raya dan keindahan seluruh makhluk ciptaan Allah, karena mengetahui keindahan makhluk adalah cara jujur dan termudah untuk mengekspresikan keindahan Sang Maha Pencipta. Pengetahuan inilah yang mengangkat manusia ke arah kemuliaan, mempersiapkan hidup abadi, dalam alam nan indah dari sekedar alam dunia menuju alam kebahagiaan hati yang hakiki kala mengetahui keindahan Ilahi." (Sayyid Quthb, Fi Dzilalil Qur'an, 36/34)</p>
+
+      <h2>Hikmah Ayat</h2>
+      <ul>
+        <li>Allah menghiasi langit dengan bintang gemintang di waktu malam — sebagai penghias langit, pelempar syetan dari kalangan jin yang mencuri kabar dari langit, serta sebagai petunjuk arah baik di darat maupun di laut.</li>
+        <li>Bagi orang yang beriman, mengetahui keindahan ciptaan Allah adalah cara paling jujur dan mudah untuk mengenal keindahan Allah Yang Maha Indah.</li>
+        <li>Orang yang ingkar kepada Allah akan mendapat azab yang pedih berupa neraka Jahannam.</li>
+      </ul>
+
+      <hr />
+
+      <p><em>Bersambung…</em></p>
+    `,
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-6.webp",
+  },
+  {
+    id: 12,
+    slug: "tafsir-surat-al-mulk-ayat-3-4",
+    title: "Tafsir Surat Al-Mulk Ayat 3-4 — Tujuh Langit Berlapis (Bagian 4)",
+    excerpt: "Tujuh langit berlapis-lapis tanpa cela dan tanpa penopang — bukti kesempurnaan ciptaan Allah yang tak akan ditemukan cacatnya meski dipandang berulang-ulang. Tafsir Surat Al-Mulk ayat 3-4 (Bagian 4).",
+    content: `
+      <h2>Nash Ayat</h2>
+
+      <blockquote dir="rtl" lang="ar">الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا مَا تَرَى فِي خَلْقِ الرَّحْمَنِ مِنْ تَفَاوُتٍ فَارْجِعِ الْبَصَرَ هَلْ تَرَى مِنْ فُطُورٍ (٣) ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنْقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ (٤)</blockquote>
+
+      <p>"Yang telah menciptakan tujuh langit berlapis-lapis. Kamu sekali-kali tidak melihat pada ciptaan Tuhan Yang Maha Pemurah sesuatu yang tidak seimbang. Maka lihatlah berulang-ulang, adakah kamu lihat sesuatu yang tidak seimbang? Kemudian pandanglah sekali lagi niscaya penglihatanmu akan kembali kepadamu dengan tidak menemukan sesuatu cacat dan penglihatanmu itu pun dalam keadaan letih." (QS. Al-Mulk: 3-4)</p>
+
+      <h2>Tinjauan Bahasa</h2>
+
+      <p><strong dir="rtl" lang="ar">الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا</strong> — "Yang telah menciptakan tujuh langit berlapis-lapis"</p>
+
+      <p>Langit yang diciptakan Allah bertingkat — sebagian berada di atas sebagian yang lain. (At-Thabari, 23/506)</p>
+
+      <p>Tingkatan langit yang Allah ciptakan menunjukkan Maha Sempurnanya Allah. Dia menciptakan langit tanpa penyangga, tanpa terpengaruh gaya gravitasi bumi, terpisah antara satu tingkatan dengan tingkatan lainnya, tanpa cela. Sungguh Maha Sempurna Allah. (Wahbah Az-Zuhaily, Tafsir Al-Munir, 29/11)</p>
+
+      <p>Hakikat langit tiada yang mengetahui kecuali Allah. Jaraknya dari bumi sekitar perjalanan 500 tahun dengan perkiraan klasik. Pendapat lain mengatakan langit adalah angkasa raya sebagai tempat bagi benda-benda langit dalam tata surya, terdiri dari galaksi dan gugusan bintang-bintang dengan jarak berbeda-beda — itu pula gambaran tingkatan langit yang Allah ciptakan. (Wahbah Az-Zuhaily, Tafsir Al-Munir, 29/11)</p>
+
+      <p>Keberadaan langit merupakan kekuasaan Allah atas makhluk-Nya, hal itu bisa dilihat dari tiga sisi:</p>
+      <ol>
+        <li>Langit tetap berada di angkasa, menggantung tanpa tiang dan tanpa penghubung ikatan.</li>
+        <li>Tiap-tiap langit memiliki kekhususan masing-masing dalam ukuran tertentu.</li>
+        <li>Tiap-tiap langit memiliki pergerakan tertentu dilihat dari cepat atau lambatnya.</li>
+      </ol>
+      <p>(Ar-Razi, Mafatihul Ghaib, 30/581)</p>
+
+      <h3>Ayat 4</h3>
+
+      <blockquote dir="rtl" lang="ar">ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنْقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ</blockquote>
+
+      <p>"Kemudian pandanglah sekali lagi niscaya penglihatanmu akan kembali kepadamu dengan tidak menemukan sesuatu cacat dan penglihatanmu itu pun dalam keadaan letih." (QS. Al-Mulk: 4)</p>
+
+      <p>Ar-Razi berkata dalam tafsirnya:</p>
+
+      <blockquote dir="rtl" lang="ar">أُمِرَ بِتَكْرِيرِ الْبَصَرِ فِي خَلْقِ الرَّحْمَنِ عَلَى سَبِيلِ التَّصَفُّحِ وَالتَّتَبُّعِ، هَلْ يَجِدُ فِيهِ عَيْبًا وَخَلَلًا، يَعْنِي أَنَّكَ إِذَا كَرَّرْتَ نَظَرَكَ لَمْ يَرْجِعْ إِلَيْكَ بَصَرُكَ بِمَا طَلَبْتَهُ مِنْ وِجْدَانِ الْخَلَلِ وَالْعَيْبِ</blockquote>
+
+      <p>"Diperintahkan untuk mengulangi pandangan dalam ciptaan Allah adalah jalan untuk wawasan dan pengamatan — apakah terdapat aib atau cacat dalam ciptaan Allah. Artinya, jika engkau pandang berulang-ulang pun, maka pandanganmu tak kan menemukan kekurangan dan aib dalam ciptaan Allah." (Ar-Razi, 30/582)</p>
+
+      <h2>Ayat Al-Qur'an Lain tentang Tujuh Lapisan Langit</h2>
+
+      <p><strong>Surat Al-Isra: 44</strong></p>
+      <blockquote dir="rtl" lang="ar">تُسَبِّحُ لَهُ السَّمَاوَاتُ السَّبْعُ وَالْأَرْضُ وَمَنْ فِيهِنَّ</blockquote>
+      <p>"Langit yang tujuh, bumi, dan semua yang ada di dalamnya bertasbih kepada Allah."</p>
+
+      <p><strong>Surat Al-Mu'minun: 86</strong></p>
+      <blockquote dir="rtl" lang="ar">قُلْ مَنْ رَبُّ السَّمَاوَاتِ السَّبْعِ وَرَبُّ الْعَرْشِ الْعَظِيمِ</blockquote>
+      <p>"Katakanlah: 'Siapakah Rabb yang memiliki langit yang tujuh dan yang memiliki Arsy Yang Agung?'"</p>
+
+      <p><strong>Surat Fushshilat: 12</strong></p>
+      <blockquote dir="rtl" lang="ar">فَقَضَاهُنَّ سَبْعَ سَمَاوَاتٍ فِي يَوْمَيْنِ وَأَوْحَى فِي كُلِّ سَمَاءٍ أَمْرَهَا</blockquote>
+      <p>"Lalu diciptakan-Nya tujuh langit dalam dua masa, dan pada setiap langit Dia mewahyukan urusan masing-masing…"</p>
+
+      <p><strong>Surat At-Thalaq: 12</strong></p>
+      <blockquote dir="rtl" lang="ar">اللَّهُ الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ وَمِنَ الْأَرْضِ مِثْلَهُنَّ</blockquote>
+      <p>"Allah-lah yang menciptakan tujuh langit, dan dari penciptaan bumi juga serupa."</p>
+
+      <p><strong>Surat Nuh: 15</strong></p>
+      <blockquote dir="rtl" lang="ar">أَلَمْ تَرَوْا كَيْفَ خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ طِبَاقًا</blockquote>
+      <p>"Tidakkah kamu melihat bagaimana Allah menciptakan tujuh langit berlapis-lapis?"</p>
+
+      <p><strong>Surat An-Naba: 12</strong></p>
+      <blockquote dir="rtl" lang="ar">وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا</blockquote>
+      <p>"Dan Kami membangun di atasmu tujuh langit yang kokoh."</p>
+
+      <h2>Hikmah Surat</h2>
+      <ul>
+        <li>Allah Maha Kuasa untuk menciptakan makhluk dalam bentuk apa pun sesuai dengan kehendak-Nya.</li>
+        <li>Allah menciptakan langit bertingkat dalam tujuh lapisan, tiada penopang, masing-masing lapisan memiliki kekhususan tertentu — hanya Allah Yang Maha Mengetahuinya.</li>
+        <li>Jika kita mengulangi pandangan dan berfikir atas kebesaran Allah dalam penciptaan langit, bumi, dan seisinya, niscaya tiada cacat dalam penciptaan-Nya.</li>
+      </ul>
+
+      <hr />
+
+      <p><em>Ditulis oleh: Fauzan Sugiyono, Lc</em><br /><em>Bersambung…</em></p>
+    `,
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-6.webp",
+  },
+  {
+    id: 13,
+    slug: "tafsir-surat-al-mulk-ayat-2",
+    title: "Tafsir Surat Al-Mulk Ayat 2 — Amal Terbaik (Bagian 3)",
+    excerpt: "Allah menciptakan kematian dan kehidupan untuk menguji siapa yang paling baik amalnya — bukan yang terbanyak, melainkan yang paling ikhlas dan sesuai sunnah. Tafsir Surat Al-Mulk ayat 2 (Bagian 3).",
+    content: `
+      <h2>Nash Ayat</h2>
+
+      <blockquote dir="rtl" lang="ar">الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَهُوَ الْعَزِيزُ الْغَفُورُ</blockquote>
+
+      <p>"Yang menciptakan kematian dan kehidupan untuk menguji kalian, siapa di antara kalian yang paling baik amalnya, dan Dia Maha Perkasa, Maha Pengampun." (QS. Al-Mulk: 2)</p>
+
+      <h2>Tinjauan Bahasa</h2>
+
+      <p><strong dir="rtl" lang="ar">الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ</strong> — "Yang menciptakan kematian dan kehidupan"</p>
+
+      <p>Allah yang memberi kehidupan kepada makhluk-Nya kepada siapa saja yang dikehendaki-Nya, dan mematikan makhluk sesuai dengan kehendak-Nya. Makhluk akan hidup selama ruh belum terpisah dengan badan. Sedangkan jika ruh sudah terpisah dengan badan, maka makhluk tersebut disebut mati — meski raga masih utuh secara fisik.</p>
+
+      <p>Lafadz <em>al-maut</em> (mati) lebih didahulukan dari lafadz <em>al-hayat</em> (hidup), karena setiap makhluk berasal dari sesuatu yang tidak hidup (mati) sedangkan hidup adalah efek setelahnya — atau karena kematian lebih dekat dan sesuatu yang tak bisa dihindari. (Fathul Qadir, 5/305)</p>
+
+      <p><strong dir="rtl" lang="ar">لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا</strong> — "Untuk menguji kalian, siapa di antara kalian yang paling baik amalnya"</p>
+
+      <blockquote dir="rtl" lang="ar">وَأخرج ابْن أبي الدُّنْيَا وَالْبَيْهَقِيّ فِي شعب الإِيمان عَن السّديّ فِي قَوْله: {الَّذِي خلق الْمَوْت والحياة ليَبْلُوكُمْ أَيّكُم أحسن عملا} قَالَ: أَيّكُم أحسن للْمَوْت ذكرا وَله اسْتِعْدَادًا وَمِنْه خوفًا وحذراً</blockquote>
+
+      <p>Ditakhrij oleh Ibnu Abi Dunya dan Al-Baihaqi dalam <em>Syu'abul Iman</em> dari As-Suddi pada firman Allah di atas: "Siapakah di antara kalian yang terbaik dalam mengingat mati, mempersiapkan, takut, dan waspada terhadap kematian." (As-Suyuthi, Ad-Durul Mantsur, 8/234)</p>
+
+      <h2>Maksud Ahsanu 'Amala (Amal Terbaik)</h2>
+
+      <p><strong dir="rtl" lang="ar">أَحْسَنُ عَمَلًا</strong> — "Amalan terbaik"</p>
+
+      <p>Menurut Ibnu Katsir, yang dimaksud <em>ahsanu 'amala</em> adalah amal terbaik — seperti pendapat Bin 'Ajlan — dan bukan amalan terbanyak. (Tafsir Ibnu Katsir, 8/176)</p>
+
+      <p>Menurut Fudhail Bin Iyadh, makna <em>ahsanu 'amala</em> adalah amal yang paling ikhlas dan paling benar. Ia berkata: "Amal tidak akan diterima hingga ikhlas dan benar — ikhlas jika dikerjakan karena Allah Subhanahu wa Ta'ala, dan benar jika dikerjakan sesuai sunnah." (Tafsir Al-Baghawi, 8/176)</p>
+
+      <p>Menurut Al-Hasan, <em>ahsanu 'amala</em> adalah amal di sisi Allah yang paling zuhud terhadap dunia. (Tafsir Ibnu Katsir, 8/176)</p>
+
+      <p>Allah menciptakan kehidupan ini sebagai ujian. Allah juga menciptakan kematian sebagai balasan — karena itulah Allah menciptakan surga dan para penghuninya, menciptakan neraka dan para penghuninya. Allah menguji mereka dengan perintah beramal, anjuran, dan larangan — dari situlah didapat balasan dan sanksi. (Bahrul Ulum, 3/474)</p>
+
+      <h2>Hikmah Ayat</h2>
+      <ul>
+        <li>Allah Maha Kuasa atas segala sesuatu terhadap makhluk-Nya — setiap detik dan setiap tarikan nafas, Allah Maha Mengetahui.</li>
+        <li>Allah menciptakan kehidupan dan kematian untuk menguji umat-Nya agar memiliki amal-amal terbaik, karena kesudahan manusia adalah surga atau neraka.</li>
+        <li>Amal terbaik bukan amalan yang terbanyak, namun amal yang memenuhi dua unsur: ikhlas karena Allah dan sesuai sunnah Rasulullah <span dir="rtl" lang="ar">صلى الله عليه وسلم</span>.</li>
+      </ul>
+
+      <hr />
+
+      <p><em>Bersambung…</em></p>
+    `,
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-6.webp",
+  },
+  {
+    id: 14,
+    slug: "tafsir-surat-al-mulk-mukaddimah",
+    title: "Tafsir Surat Al-Mulk — Mukaddimah (Bagian 1)",
+    excerpt: "Mukaddimah Tafsir Surat Al-Mulk: gambaran umum, kandungan utama, nama-nama lain surat, serta keutamaannya — dari syafaat di hari kiamat hingga perlindungan dari azab kubur.",
+    content: `
+      <h2>A. Gambaran Umum Surat Al-Mulk</h2>
+      <ul>
+        <li>Surat Al-Mulk merupakan surat pilihan nan agung dari surat-surat yang ada di dalam Al-Qur'an.</li>
+        <li>Surat ini tergolong Makkiyyah, urutan ke-67, terletak pada juz 29, dan jumlah ayatnya ada 30 ayat.</li>
+        <li>Kandungan Surat Al-Mulk di antaranya: tauhid, keyakinan akan kekuasaan Allah dan bahwa Dia Maha Kuasa atas segala sesuatu di alam ini — dari langit, bumi, dan seisinya. Selain itu juga menggambarkan tentang kesesatan orang kafir, kesudahan buruk dan kerugian bagi mereka, anjuran mewaspadai tipu daya syetan, tentang kematian, serta mengingatkan manusia akan azab neraka Jahannam.</li>
+        <li>Nama-nama lain dari Surat Al-Mulk: <em>Tabarakalladzi Biyadihil Mulk</em> (sebagaimana Rasulullah menyebutkannya dalam haditsnya), <em>Al-Munjiyat</em> (menyelamatkan orang yang membacanya kelak di hari kiamat), <em>Al-Mani'ah</em> (menolak azab kubur), <em>Al-Waqiyah</em> (pencegahan), dan juga dinamakan <em>Ruqyah</em> (jampi) yang bisa digunakan untuk melindungi diri dari godaan syetan. (Tafsir Ibnu Asyur, 6/29)</li>
+      </ul>
+
+      <h2>B. Keutamaan Surat Al-Mulk</h2>
+
+      <h3>1. Dapat Memberi Syafaat bagi yang Membacanya</h3>
+      <p>Berdasarkan hadits Nabi <span dir="rtl" lang="ar">صلى الله عليه وسلم</span>:</p>
+
+      <blockquote dir="rtl" lang="ar">عن أبي هريرة عن النبي صلى الله عليه وسلم قال: "إن سورة من القرآن ثلاثون آية شفعت لرجل حتى غفر له وهي سورة تبارك الذي بيده الملك"</blockquote>
+
+      <p>Dari Abu Hurairah <em>radhiyallahu 'anhu</em>, Nabi <span dir="rtl" lang="ar">صلى الله عليه وسلم</span> bersabda: "Ada sebuah surat di dalam Al-Qur'an yang terdiri dari tiga puluh ayat — sebagai syafaat bagi seseorang hingga dosanya diampuni Allah. Surat tersebut adalah surat <em>Tabarakalladzi Biyadihil Mulk</em>." (HR. Tirmidzi no. 2891, Abu Daud no. 1400, Ibnu Majah no. 3786. Tirmidzi berkata: "Hadits ini hasan." Di-shahih-kan oleh Ibnu Taimiyah dalam Majmu' Fatawa, 22/277)</p>
+
+      <h3>2. Selamat dari Azab Kubur</h3>
+      <p>Hadits Nabi <span dir="rtl" lang="ar">صلى الله عليه وسلم</span>:</p>
+
+      <blockquote dir="rtl" lang="ar">عن عبد الله بن مسعود قال: من قرأ تبارك الذي بيده الملك كل ليلة منعه الله بها من عذاب القبر، وكنا في عهد رسول الله صلى الله عليه وسلم نسميها المانعة، وإنها في كتاب الله سورة من قرأ بها في كل ليلة فقد أكثر وأطاب</blockquote>
+
+      <p>Dari Abdullah bin Mas'ud, ia berkata: "Barangsiapa yang membaca <em>Tabarakalladzi Biyadihil Mulk</em> pada setiap malam, Allah akan menjaganya dari azab kubur. Pada zaman Rasulullah, kami menamai Surat Al-Mulk dengan <em>Al-Mani'ah</em> (yang menolak), karena ada sebuah surat di kitabullah yang jika orang membacanya setiap malam, semakin banyak (dia membacanya) semakin baik." (HR. An-Nasai, 6/179. Di-hasan-kan oleh Al-Albani dalam Shahih At-Targhib wat Tarhib no. 1475)</p>
+
+      <h3>3. Rasulullah Membaca Surat Al-Mulk Sebelum Tidur</h3>
+
+      <blockquote dir="rtl" lang="ar">كان – عليه الصلاة والسلام – لا ينام حتى يقرأ: (الم. تنزيل السجدة) و(تبارك الذي بيده الملك)</blockquote>
+
+      <p>"Adalah Rasulullah <span dir="rtl" lang="ar">صلى الله عليه وسلم</span> tidak tidur sebelum membaca Surat Alif Lam Mim Sajdah dan <em>Tabarakalladzi Biyadihil Mulk</em>." (Silsilah Hadits Shahihah, 585)</p>
+
+      <h3>4. Fatwa Lajnah Da'imah</h3>
+
+      <blockquote dir="rtl" lang="ar">وعلى هذا يُرجى لمن آمن بهذه السورة وحافظ على قراءتها، ابتغاء وجه الله، معتبراً بما فيها من العبر والمواعظ، عاملاً بما فيها من أحكام أن تشفع له</blockquote>
+
+      <p>"Dengan demikian, akan diberi syafaat bagi orang yang menghafal dan membaca surat ini hanya mengharap keridhaan Allah, mengambil pelajaran di dalamnya, dan beramal dengan hukum-hukum di dalamnya." (Fatwa Lajnah Da'imah, 4/334-335)</p>
+
+      <hr />
+
+      <p><em>Bersambung ke Bagian 2…</em></p>
+    `,
+    category: "Tafsir",
+    date: "2021-02-15",
+    image: "/assets/artikel/content-6.webp",
+  },
+  {
+    id: 15,
+    slug: "doa-memohon-petunjuk-takwa-penjagaan-kecukupan",
+    title: "Doa Memohon Petunjuk, Takwa, Penjagaan, dan Kecukupan",
+    excerpt: "Rasulullah mengajarkan sebuah doa pendek namun padat — memohon empat hal besar: petunjuk, ketakwaan, penjagaan, dan kecukupan. Sebuah jalan menuju kebahagiaan dunia dan akhirat.",
+    content: `
+      <p>Tak sedikit orang tertipu dengan dunia — isinya merupakan dambaan setiap manusia, padahal dunia itu fana (sementara). Sementara tak banyak orang yang memburu kebaikan akhirat, padahal akhirat adalah kebaikan dan kebahagiaan yang tak tergantikan, karena akhirat selamanya kekal abadi.</p>
+
+      <p>Firman Allah:</p>
+
+      <blockquote dir="rtl" lang="ar">وَلَلْآخِرَةُ خَيْرٌ لَكَ مِنَ الْأُولَى</blockquote>
+
+      <p>"Dan sungguh, yang kemudian itu lebih baik bagimu dari yang permulaan." (QS. Adh-Dhuha: 4)</p>
+
+      <p>Imam Ath-Thabari menafsirkan ayat ini:</p>
+
+      <blockquote dir="rtl" lang="ar">وللدار الآخرة، وما أعد الله لك فيها، خير لك من الدار الدنيا وما فيها</blockquote>
+
+      <p>"Akhirat dan apa saja yang Allah janjikan untukmu di sana, lebih baik daripada kehidupan dunia dan seisinya." (Tafsir At-Thabari, 24/478)</p>
+
+      <p>Oleh karena itu Rasulullah <span dir="rtl" lang="ar">صلى الله عليه وسلم</span> mengajarkan doa kepada para sahabat:</p>
+
+      <blockquote dir="rtl" lang="ar">اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى، وَالتُّقَى، وَالْعَفَافَ، وَالْغِنَى</blockquote>
+
+      <p>"Ya Allah, aku memohon kepada-Mu petunjuk, ketakwaan, penjagaan, dan kecukupan." (HR. Muslim)</p>
+
+      <p>Ini doa yang mulia — mencakup empat permintaan besar:</p>
+
+      <h2>1. Memohon Petunjuk (Al-Huda)</h2>
+      <p>Mengapa perlu memohon petunjuk? Karena Allah-lah Yang Maha Memberi Petunjuk — petunjuk kebaikan dan ketaatan kepada-Nya. Hidayah bukan ditunggu; hidayah itu dicari dengan akal dan hati, lalu dijaga dengan amal dan doa. Bagi yang belum mendapat hidayah, doa ini adalah jalan agar dianugerahi hidayah. Bagi yang sudah mendapat hidayah, doa ini adalah jalan agar Allah meng-istiqamah-kannya dalam ketaatan.</p>
+
+      <blockquote dir="rtl" lang="ar">إِنَّكَ لَا تَهْدِي مَنْ أَحْبَبْتَ وَلَٰكِنَّ اللَّهَ يَهْدِي مَن يَشَاءُ</blockquote>
+
+      <p>"Sesungguhnya engkau (Muhammad) tidak akan dapat memberi hidayah (petunjuk) kepada orang yang kamu kasihi, tetapi Allah memberi hidayah kepada orang yang Dia kehendaki." (QS. Al-Qashash: 56)</p>
+
+      <h2>2. Ketakwaan (At-Tuqa)</h2>
+      <p>Memohon agar Allah memudahkan kita melaksanakan perintah-Nya dengan ikhlas dan menjauhi larangan-Nya tanpa paksaan. Derivasi kata dari <em>takwa</em> adalah <em>wiqayah</em> yang artinya pencegahan. Takwa merupakan perintah mulia — dengan takwa, orang meraih ketenangan dan kebahagiaan di dunia. Allah akan memberi kemudahan dari kesulitan-kesulitan bagi orang yang bertakwa.</p>
+
+      <p>Firman Allah:</p>
+
+      <blockquote dir="rtl" lang="ar">وَمَنْ يَتَّقِ اللَّهَ يَجْعَلْ لَهُ مَخْرَجًا * وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ</blockquote>
+
+      <p>"Barangsiapa bertakwa kepada Allah, niscaya Dia akan mengadakan baginya jalan keluar. Dan memberinya rezeki dari arah yang tiada disangka-sangkanya." (QS. At-Thalaq: 2-3)</p>
+
+      <blockquote dir="rtl" lang="ar">إِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ</blockquote>
+
+      <p>"Sesungguhnya Allah mencintai orang-orang yang bertakwa." (QS. At-Taubah: 4)</p>
+
+      <h2>3. Penjagaan (Al-'Afaf)</h2>
+      <p>Bermohonlah agar Allah menjagamu dari segala mara bahaya — menjaga dari sakit, menjaga dari sifat-sifat buruk, menjagamu untuk tidak terjerumus kepada maksiat, terlebih lagi dosa-dosa besar. Menjaga panca indera dan seluruh anggota tubuh. Bermohonlah agar Allah menjagamu dari semua yang haram — sumber rezeki haram, kata-kata haram, maupun perbuatan yang diharamkan Allah. Semua itu tak akan terwujud tanpa pertolongan Allah.</p>
+
+      <h2>4. Kecukupan/Kekayaan (Al-Ghina)</h2>
+      <p>Cukup dan kaya sifatnya relatif — kaya bagi sebagian orang belum tentu kaya untuk sebagian yang lain. Bermohonlah agar Allah mencukupkanmu dengan rezeki-rezeki yang halal, dengan pekerjaan-pekerjaan yang halal. Karena betapa banyak orang berpaling dari yang halal menuju ke yang haram, lantaran tergiur dengan dunia dan kemewahannya. Buat apa bermewah-mewah di dunia, namun bersumber dari yang haram?</p>
+
+      <p>Rasulullah <span dir="rtl" lang="ar">صلى الله عليه وسلم</span> bersabda:</p>
+
+      <blockquote dir="rtl" lang="ar">لَا يَرْبُو لَحْمٌ نَبَتَ مِنْ سُحْتٍ إِلَّا كَانَتْ النَّارُ أَوْلَى بِهِ</blockquote>
+
+      <p>"Setiap daging yang tumbuh dari (rezeki) yang haram, maka neraka lebih cocok baginya." (HR. Tirmidzi)</p>
+
+      <p>Rasulullah <span dir="rtl" lang="ar">صلى الله عليه وسلم</span> juga bersabda:</p>
+
+      <blockquote dir="rtl" lang="ar">لَيَأْتِيَنَّ عَلَى النَّاسِ زَمَانٌ لَا يُبَالِي الْمَرْءُ بِمَا أَخَذَ الْمَالَ أَمِنْ حَلَالٍ أَمْ مِنْ حَرَامٍ</blockquote>
+
+      <p>"Akan datang suatu masa di mana seseorang tidak peduli lagi cara mendapatkan hartanya — dari yang halal atau dari yang haram." (HR. Bukhari)</p>
+
+      <p>Kekayaan sesungguhnya ada di dalam jiwa — <em>qana'ah</em> (merasa cukup) terhadap pemberian Allah, dan bersabar atas ujian Allah.</p>
+
+      <p dir="rtl" lang="ar">والله أعلم</p>
+
+      <hr />
+
+      <p><em>Depok, 12 Februari 2021</em><br /><em>Fauzan Sugiyono, Lc</em></p>
+    `,
+    category: "Akhlak",
+    date: "2021-02-12",
+    image: "/assets/artikel/content-15.webp",
   },
 ];
 
-// Helper: format tanggal dari "2024-11-10" → "10 November 2024"
-export function formatTanggal(tanggal) {
-  return new Date(tanggal).toLocaleDateString("id-ID", {
+// Helper: format date dari "2024-11-10" → "10 November 2024"
+export function formatDate(date) {
+  return new Date(date).toLocaleDateString("id-ID", {
     day: "numeric",
     month: "long",
     year: "numeric",

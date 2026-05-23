@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Calendar } from "lucide-react";
 import Badge from "@/components/ui/Badge";
-import { formatTanggal } from "@/data/artikel";
+import { formatDate } from "@/data/artikel";
 
 export default function ArtikelDetailClient({ artikel }) {
   return (
@@ -20,14 +20,14 @@ export default function ArtikelDetailClient({ artikel }) {
 
           {/* Meta info */}
           <div className="flex flex-wrap items-center gap-2 mb-4">
-            <Badge category={artikel.kategori}>{artikel.kategori}</Badge>
+            <Badge category={artikel.category}>{artikel.category}</Badge>
             <span className="inline-flex items-center gap-1 text-xs text-dark-700/70">
-              <Calendar size={11} /> {formatTanggal(artikel.tanggal)}
+              <Calendar size={11} /> {formatDate(artikel.date)}
             </span>
           </div>
 
           {/* Judul */}
-          <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-800 leading-tight">{artikel.judul}</h1>
+          <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dark-800 leading-tight">{artikel.title}</h1>
 
           {/* Excerpt */}
           <p className="text-dark-700 mt-4 text-lg leading-relaxed">{artikel.excerpt}</p>
@@ -35,13 +35,13 @@ export default function ArtikelDetailClient({ artikel }) {
       </section>
 
       {/* Gambar utama artikel — kalau ada */}
-      {artikel.gambar && (
+      {artikel.image && (
         <section className="bg-surface-50 pt-8">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="relative aspect-[16/9] rounded-2xl overflow-hidden border border-surface-200 shadow-sm">
               <Image
-                src={artikel.gambar}
-                alt={artikel.judul}
+                src={artikel.image}
+                alt={artikel.title}
                 fill
                 sizes="(max-width: 768px) 100vw, 768px"
                 priority
@@ -62,7 +62,7 @@ export default function ArtikelDetailClient({ artikel }) {
           */}
           <div
             className="prose prose-lg prose-headings:font-serif prose-headings:text-dark-800 prose-p:text-dark-700 prose-p:leading-relaxed prose-a:text-primary-500 hover:prose-a:text-primary-600 max-w-none"
-            dangerouslySetInnerHTML={{ __html: artikel.konten }}
+            dangerouslySetInnerHTML={{ __html: artikel.content }}
           />
 
           {/* Divider */}

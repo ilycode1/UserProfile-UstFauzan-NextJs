@@ -1,4 +1,4 @@
-import { artikelList, formatTanggal } from "@/data/artikel";
+import { artikelList } from "@/data/artikel";
 import { notFound } from "next/navigation";
 import ArtikelDetailClient from "@/components/ArtikelDetailClient";
 
@@ -10,12 +10,12 @@ export async function generateMetadata({ params }) {
   if (!artikel) return {};
 
   return {
-    title: artikel.judul,
+    title: artikel.title,
     description: artikel.excerpt,
     openGraph: {
-      title: artikel.judul,
+      title: artikel.title,
       description: artikel.excerpt,
-      images: artikel.gambar ? [artikel.gambar] : [],
+      images: artikel.image ? [artikel.image] : [],
     },
   };
 }
