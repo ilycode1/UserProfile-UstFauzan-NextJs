@@ -61,7 +61,7 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
-  // verification: { google: "kode-dari-google-search-console-nanti" },
+  verification: { google: "kUrzy3Pw4me4NJNW-4ZMpOf3QJCuhY96Q6K1kLEhipg/>" },
 };
 
 export default function RootLayout({ children }) {
