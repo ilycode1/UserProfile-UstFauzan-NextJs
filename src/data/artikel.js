@@ -1002,6 +1002,34 @@ export const artikelList = [
     date: "2026-06-03",
     image: "",
   },
+  {
+    id: 17,
+    slug: "belajar-dari-seekor-lalat",
+    title: "Belajar dari Seekor Lalat",
+    excerpt: "Seekor lalat mengajarkan bahwa setiap makhluk memiliki peran yang Allah tetapkan. Hidup bukan tentang menjadi yang paling disukai, tetapi tentang menjalankan amanah dan mencari ridha Allah.",
+    content: `
+    <p><em>Oleh: Fauzan Sugiyono, Lc<br />(Penyuluh Agama Islam KUA Sukmajaya Kota Depok)</em></p>
+
+    <p>Seekor lalat (<em>Musca domestica</em>) sering kali dibenci dan tidak pernah diberi ruang untuk sekadar singgah. Kehadirannya ditolak dan setiap kali mendekat, ia segera diusir. Gerakannya dianggap mengganggu. Namun, ia tetap terbang menjalani takdir yang telah Allah tetapkan.</p>
+
+    <p>Lalat memang kecil dan mungkin dianggap kotor. Namun, Allah tetap memberinya peran dalam kehidupan. Ia turut mengurai sesuatu yang telah membusuk dan menjadi bagian dari keseimbangan kehidupan. Lalat tidak meminta untuk dipuji, tidak pula meminta untuk dimengerti. Ia hanya menjalankan perannya tanpa mengeluh dan tanpa menunggu untuk dicintai.</p>
+
+    <p>Betapa sering manusia merasa dirinya tidak berarti, tidak dianggap, tidak dibutuhkan, atau kehadirannya tidak diinginkan. Padahal, hidup ini berjalan dalam takdir Allah. Tidak ada satu pun ciptaan Allah yang benar-benar sia-sia. Tidak semua yang indah memiliki manfaat besar, dan tidak semua yang kecil kehilangan makna.</p>
+
+    <p>Seekor lalat mengajarkan bahwa hidup bukan tentang menjadi yang paling indah, bukan tentang disukai semua orang, dan bukan pula tentang mendapatkan pujian dari manusia. Hidup adalah tentang memahami peran yang Allah berikan dan menjalankan amanah dengan penuh tanggung jawab.</p>
+
+    <p>Tetaplah berjalan meski tidak semua orang memahami keberadaan kita. Sebab pada akhirnya, bukan tentang siapa yang memuji kita, melainkan apakah Allah ridha kepada kita. Bukan tentang menjadi orang yang disukai manusia, tetapi tentang tetap taat kepada Allah Yang Maha Kuasa.</p>
+
+    <p><em>Sukmajaya, 07/09/2026</em></p>
+
+    <hr />
+
+    <p><em>Penulis: Fauzan Sugiyono, Lc — Penyuluh Agama Islam KUA Sukmajaya Kota Depok</em></p>
+  `,
+    category: "Akhlak",
+    date: "2026-09-07",
+    image: "/assets/artikel/content-17.jpeg",
+  },
 ];
 
 // Helper: format date dari "2024-11-10" → "10 November 2024"
